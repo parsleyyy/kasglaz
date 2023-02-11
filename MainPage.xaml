@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kasglaz.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" Background="Orangered">
+            <Label Text="EZ FABRIC" HorizontalOptions="Center" Margin="0,25,0,0" FontSize="25" TextColor="White"></Label>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Background="#808080">
+            <Entry VerticalOptions="Center" WidthRequest="300" HeightRequest="40" Placeholder="Username" Background="White" Margin="0,40,0,0"></Entry>
+            <Entry VerticalOptions="Center" WidthRequest="300" HeightRequest="40" Placeholder="Password" Background="White"></Entry>
+            <Entry VerticalOptions="Center" WidthRequest="300" HeightRequest="45" Text="Login" Background="Orangered" Margin="0,20,0,0"></Entry>
+            <Label Text="----------------------OR----------------------" HorizontalOptions="Center" Margin="0,50,0,0" FontSize="15" TextColor="White"></Label>
+            <Button VerticalOptions="Center" WidthRequest="300" HeightRequest="45" Text="Register" Background="Green" Margin="0,60,0,0"></Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>
